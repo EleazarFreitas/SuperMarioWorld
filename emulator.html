@@ -1,0 +1,30 @@
+<title>Super Mario World</title>
+<link rel="shortcut icon" href="favicon.png">
+<link rel="stylesheet" href="emulator.css">
+
+<div class="hero">
+
+   <div class="center display" id="display">
+
+        <div class="screen">
+            <div id="game"></div>
+        </div>
+
+        <script type="text/javascript">
+        EJS_player = '#game';
+        EJS_gameUrl = 'rom.smc';
+        EJS_core = 'snes';
+        EJS_mouse = false;
+        EJS_multitap = false;
+        </script>
+        <script src="emulator.js"></script>
+
+   </div>
+
+   <div class="btn">
+        <button>Jogar</button>
+   </div>
+
+   <script src="display.js"></script>
+
+</div>
