@@ -20,6 +20,19 @@
         z-index: 1;
         box-shadow: 0 0 20px 5px #fff;
     }
+    .close {
+        position: absolute;
+        text-decoration: none;
+        right: -15;
+        top: -15;
+        padding: 10 15px;
+        background-color: #f5312b;
+        color: #fff;
+        border-radius: 50%;
+        font-weight: bold;
+        z-index: 1;
+        cursor: pointer;
+    }
     .display {
         display:none;
     }
